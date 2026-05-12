@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Flask MVC App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Student Manager</h1>
+        <p>Create a student directly from the browser using URL query parameters.</p>
+
+        {% if created %}
+            <p class="success">Student added successfully.</p>
+        {% endif %}
+
+        <form action="/students/add" method="GET" class="student-form">
+            <input type="text" name="name" placeholder="Enter student name" required>
+            <input type="number" name="age" placeholder="Enter age" required>
+            <button type="submit">Add Student</button>
+        </form>
+
+        <p class="hint">Example: <code>/students/add?name=Rahul&age=20</code></p>
+
+        <h2>Students</h2>
+
+        {% if students %}
+            <ul class="student-list">
+                {% for student in students %}
+                    <li>{{ student.name }} - {{ student.age }} years</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No students added yet.</p>
+        {% endif %}
+    </div>
+
+</body>
+</html> -->
