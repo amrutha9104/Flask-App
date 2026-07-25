@@ -1,4 +1,4 @@
-# Flask Student App
+# Workshop-Flask Student App
 
 This is a simple Flask project for managing student data.
 
